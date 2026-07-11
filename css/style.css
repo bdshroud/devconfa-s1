@@ -529,6 +529,11 @@ nav ul li a:hover {
     transition:.3s ease;
 }
 
+.footer-social a i{
+    color:#ffffff;          /* White icon */
+    font-size:20px;
+}
+
 .footer-social img{
     width:22px;
     height:22px;
@@ -538,6 +543,10 @@ nav ul li a:hover {
     background:#2563eb;
     transform:translateY(-4px);
 }
+.footer-social a:hover i{
+    color:#ffffff;
+}
+
 
 /* Divider */
 
