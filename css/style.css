@@ -363,7 +363,7 @@ nav ul li a:hover {
 /* Pricing Section End  */
 
 /* Missing Part Start  */
-/* Sponsors */
+
 
 .sponsor-section{
     padding:100px 0;
@@ -422,7 +422,7 @@ nav ul li a:hover {
     font-size:22px;
 }
 
-/* Logos */
+/* sponsor Logos */
 
 .sponsor-logos{
     display:flex;
@@ -461,7 +461,7 @@ nav ul li a:hover {
 /* Missing Part End  */
 
 /* Footer section start */
-/* Footer */
+
 
 .footer-section{
     background:#0f1d2d;
@@ -568,6 +568,8 @@ nav ul li a:hover {
 }
 /* Footer section End  */
 
+
+/* Responsive */
 @media (max-width:768px){
 
     .footer-top{
