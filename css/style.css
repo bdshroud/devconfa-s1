@@ -10,7 +10,7 @@
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 /* Navigation */
@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 /* Register Button */
 
-.btn {
+.register {
     background: #2563eb;
     color: #fff;
     text-decoration: none;
@@ -60,7 +60,7 @@ nav ul li a:hover {
     transition: background 0.3s ease;
 }
 
-.btn:hover {
+.register:hover {
     background: #1d4ed8;
 }
 
@@ -69,10 +69,11 @@ nav ul li a:hover {
 
 .hero{
     background: url("../assets/banner.jpg") center center/cover no-repeat;
-    height: 650px;
+    height: 786px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 32px;
 }
 
 /* Dark Overlay */
@@ -91,6 +92,11 @@ nav ul li a:hover {
 .hero-content{
     text-align: center;
     color: #fff;
+    gap: 32px; important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
 }
 
 /* Title */
@@ -113,25 +119,31 @@ nav ul li a:hover {
     padding: 14px 20px;
     font-size: 22px;
     line-height: 1.6;
+    height: 100px;
 }
 
 /* Button */
 
-.btn{
+.button{
     display: inline-block;
     background: #2563eb;
     color: #fff;
     text-decoration: none;
-    padding: 14px 36px;
+    padding: 12px 32px;
+    margin-top: 250px;
     border-radius: 8px;
     font-weight: 600;
     transition: .3s;
+    
 }
 
-.btn:hover{
+.button:hover{
     background: #1d4ed8;
 }
 
 
 /* Hero Section end */
+
+
+
 
